@@ -85,6 +85,9 @@ using namespace std;
 #include "TestCollisionCategory.h"
 #include "TestSensor.h"
 #include "TestRayCast.h"
+#include "TestRemoveBody.h"
+#include "TestJumpingEvent.h"
+#include "TestRevolute.h"
 
 TestEntry g_testEntries[] =
 {
@@ -141,10 +144,12 @@ TestEntry g_testEntries[] =
 	//{"Rotation test", TestRotation::Create},
 	//{"Jumping test", TestJump::Create},
 	//{"Draw Object", TestDrawObject::Create},
-	//{"Ball restitution", TestUserData::Create},
+	{"Ball restitution", TestUserData::Create},
 	//{"Collision Category", TestCollisionCategory::Create},
 	//{"Sensor test", TestSensor::Create},
-	{"Ray cast test", TestRayCast::Create},
-//	{"Removing-body test", TestRemoveBody::Create},
+	//{"Ray cast test", TestRayCast::Create},
+	//{"Removing-body test", TestRemoveBody::Create},
+	//{"Jump Event test", TestJumpingEvent::Create},	
+	{"Revolute test", TestRevolute::Create},	
 	{NULL, NULL}
 };

@@ -460,6 +460,14 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\Testbed\Tests\BallForRemoveBody.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\BallForRemoveBody.h"
+				>
+			</File>
+			<File
 				RelativePath="..\..\Testbed\Tests\BallForSensor.cpp"
 				>
 			</File>
@@ -572,11 +580,31 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\Testbed\Tests\MyContactListenerForJumping.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\MyContactListenerForJumping.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\MyContactListenerForRemoveBody.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\MyContactListenerForRemoveBody.h"
+				>
+			</File>
+			<File
 				RelativePath="..\..\Testbed\Tests\MyContactListenerForSensor.cpp"
 				>
 			</File>
 			<File
 				RelativePath="..\..\Testbed\Tests\MyContactListenerForSensor.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\MyGlobal.cpp"
 				>
 			</File>
 			<File
@@ -700,6 +728,14 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\Testbed\Tests\TestJumpingEvent.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\TestJumpingEvent.h"
+				>
+			</File>
+			<File
 				RelativePath="..\..\Testbed\Tests\TestMovingConstantSpeed.cpp"
 				>
 			</File>
@@ -713,6 +749,22 @@
 			</File>
 			<File
 				RelativePath="..\..\Testbed\Tests\TestRayCast.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\TestRemoveBody.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\TestRemoveBody.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\TestRevolute.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Testbed\Tests\TestRevolute.h"
 				>
 			</File>
 			<File
