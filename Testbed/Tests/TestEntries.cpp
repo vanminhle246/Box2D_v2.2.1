@@ -91,6 +91,7 @@ using namespace std;
 
 TestEntry g_testEntries[] =
 {
+	/**
 	{"Tumbler", Tumbler::Create},
 	{"Tiles", Tiles::Create},
 	{"Dump Shell", DumpShell::Create},
@@ -109,7 +110,7 @@ TestEntry g_testEntries[] =
 	{"Revolute", Revolute::Create},
 	{"Pulleys", Pulleys::Create},
 	{"Polygon Shapes", PolyShapes::Create},
-	//{"Rope", Rope::Create},
+	{"Rope", Rope::Create},
 	{"Web", Web::Create},
 	{"RopeJoint", RopeJoint::Create},
 	{"One-Sided Platform", OneSidedPlatform::Create},
@@ -136,19 +137,20 @@ TestEntry g_testEntries[] =
 	{"Slider Crank", SliderCrank::Create},
 	{"Varying Friction", VaryingFriction::Create},
 	{"Add Pair Stress Test", AddPair::Create},
-	//{"Foo test", FooTest::Create},
-	//{"Fixture test", TestFixture::Create},
-	//{"Friction test", TestFriction::Create},
+	/**/
+	{"Foo test", FooTest::Create},
+	{"Fixture test", TestFixture::Create},
+	{"Friction test", TestFriction::Create},
 	//{"Force Impulse", TestForceImpulse::Create},
 	//{"Moving at constant speed", TestMovingConstantSpeed::Create},
-	//{"Rotation test", TestRotation::Create},
+	{"Rotation test", TestRotation::Create},
 	//{"Jumping test", TestJump::Create},
-	//{"Draw Object", TestDrawObject::Create},
+	{"Draw Object", TestDrawObject::Create},
 	{"Ball restitution", TestUserData::Create},
-	//{"Collision Category", TestCollisionCategory::Create},
-	//{"Sensor test", TestSensor::Create},
-	//{"Ray cast test", TestRayCast::Create},
-	//{"Removing-body test", TestRemoveBody::Create},
+	{"Collision Category", TestCollisionCategory::Create},
+	{"Sensor test", TestSensor::Create},
+	{"Ray cast test", TestRayCast::Create},
+	{"Removing-body test", TestRemoveBody::Create},
 	//{"Jump Event test", TestJumpingEvent::Create},	
 	{"Revolute test", TestRevolute::Create},	
 	{NULL, NULL}

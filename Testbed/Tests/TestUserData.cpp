@@ -45,7 +45,7 @@ void TestUserData::Step(Settings* settings)
 	Test::Step(settings);
 
 	//show some text in the main screen
-	m_debugDraw.DrawString(5, m_textLine, "Now we have a user data test");
+	m_debugDraw.DrawString(5, m_textLine, "Now we have a ball restitution test");
 	m_textLine += 15;
 
 	b2Body* b = m_world->GetBodyList(); //get start of list
